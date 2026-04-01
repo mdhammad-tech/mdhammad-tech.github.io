@@ -1,129 +1,92 @@
-🌐 Mohammad Hammad | Personal Link Page
+🌐 Mohammad Hammad — Personal Link Page
 
-A modern, aesthetic personal portfolio / link-in-bio webpage built using pure HTML, CSS, and JavaScript.
-Designed with a cinematic vibe, glassmorphism UI, and smooth interactions.
-
----
-
-✨ Features
-
-- 🎥 Background Video + Poster
-  - Fullscreen cinematic background with fallback image
-- 🧑‍💻 Profile Card UI
-  - Avatar with gradient ring
-  - Custom font styling (Nevera)
-- 🔗 Social Links Section
-  - Instagram, YouTube, Resume
-  - "Coming Soon" placeholders (LinkedIn, Website)
-- 🎨 Glassmorphism Design
-  - Blur effects with smooth hover animations
-- 🔊 Background Music
-  - Auto-play (on user interaction)
-  - Mute / Unmute toggle button
-- ⚡ Interactive Animations
-  - Link click tilt effects
-  - Glow hover effects
-- 📱 Responsive Design
-  - Works on mobile and desktop
+This is a simple personal “link-in-bio” style webpage I built using HTML, CSS, and JavaScript.
+The goal was to keep it minimal, smooth, and a bit cinematic — something that feels different from typical static pages.
 
 ---
 
-📂 Project Structure
+✨ What it does
 
-📁 project-folder
-│── index.html
-│── Nevera.otf
-│── profile.jpg
-│── video_poster.jpg
-│── ironman_clip.mp4
-│── let_the_world_burn_remix.mp3
-
----
-
-🚀 How to Use
-
-1. Clone or download the project
-2. Keep all files in the same directory
-3. Open "index.html" in your browser
-
-git clone <your-repo-link>
-cd project-folder
-open index.html
+- Shows a profile card with name and bio
+- Plays a background video with a fallback image
+- Displays social links (Instagram, YouTube, Resume, etc.)
+- Adds smooth hover and click animations
+- Includes background music with a mute/unmute button
+- Works well on both mobile and desktop
 
 ---
 
-🛠️ Customization
+📂 Files included
 
-1. Change Profile Info
+index.html
+Nevera.otf
+profile.jpg
+video_poster.jpg
+ironman_clip.mp4
+let_the_world_burn_remix.mp3
 
-Edit inside HTML:
+Just keep everything in the same folder — no extra setup needed.
+
+---
+
+🚀 How to run
+
+Nothing complicated here:
+
+1. Download or clone the project
+2. Open "index.html" in your browser
+
+That’s it.
+
+---
+
+🎨 Customization
+
+You can easily make it your own:
+
+Change name & bio
 
 <h1>Your Name</h1>
+<div class="bio">Your bio here...</div>
 
-<div class="bio">
-Your bio here...
-</div>
-
----
-
-2. Update Social Links
+Update links
 
 <a href="your-link">Platform</a>
 
----
+Replace media files
 
-3. Replace Assets
+- "profile.jpg" → your photo
+- "ironman_clip.mp4" → background video
+- "video_poster.jpg" → fallback image
+- "let_the_world_burn_remix.mp3" → background music
 
-- "profile.jpg" → Your profile picture
-- "ironman_clip.mp4" → Background video
-- "video_poster.jpg" → Fallback image
-- "let_the_world_burn_remix.mp3" → Background music
-
----
-
-4. Change Colors
+Change theme colors
 
 :root {
-  --n1:#00f5ff;
-  --n2:#ff00ea;
+  --n1: #00f5ff;
+  --n2: #ff00ea;
 }
 
 ---
 
-⚠️ Important Notes
+⚠️ Notes
 
-- Audio autoplay works only after user interaction (browser policy)
-- Ensure all files are in correct paths
-- Use compressed video for better performance
-
----
-
-🧠 Tech Stack
-
-- HTML5
-- CSS3 (Glassmorphism + Animations)
-- JavaScript (Vanilla)
-- Font Awesome Icons
+- Music won’t autoplay until the user clicks (browser restriction)
+- Keep video size optimized, otherwise it may slow down loading
+- Make sure file paths are correct
 
 ---
 
-📸 Preview
+🛠 Tech used
 
-A cinematic personal page with:
-
-- glowing buttons
-- smooth animations
-- immersive background
-
----
-
-📄 License
-
-This project is free to use for personal purposes.
+- HTML
+- CSS (glassmorphism + animations)
+- JavaScript (basic interactions)
+- Font Awesome icons
 
 ---
 
-👤 Author
+👤 About me
 
 Mohammad Hammad
 
@@ -132,13 +95,12 @@ Mohammad Hammad
 
 ---
 
-💡 Future Improvements
+💭 Future ideas
 
-- Add dark/light theme toggle
-- Add analytics tracking
-- Add dynamic content (API-based)
-- Convert to React / Next.js
+- Add more sections (projects, skills, etc.)
+- Dark/light theme toggle
+- Maybe convert this into React later
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+If you like it, feel free to use it or modify it 👍
